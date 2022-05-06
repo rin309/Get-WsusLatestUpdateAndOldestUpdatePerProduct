@@ -3,10 +3,8 @@ WSUSに接続して、データベース上の更新プログラムのうち、�
 
 https://github.com/rin309/Get-WsusLatestUpdateAndOldestUpdatePerProduct/blob/main/Get-WsusLatestUpdateAndOldestUpdatePerProduct.ps1
 
-> 
 > 動作保証はしません。
 > 負荷がかかるため、本番環境では実行しないでください。
-> 
 
 # 実行結果
 
@@ -19,10 +17,14 @@ https://github.com/rin309/Get-WsusLatestUpdateAndOldestUpdatePerProduct/blob/mai
 - SQL Server
 - Developer Tools, Runtimes, and Redistributables
 
+> 本番環境では絶対にこんな乱暴な選択をしてはいけない。
+
 # 同期する条件:分類
 ![categories](https://user-images.githubusercontent.com/760251/167159433-57aff51d-6b1d-4dc5-8517-fd0119148b9e.png)
 
 - すべての分類
+
+> 本番環境では絶対にこんな乱暴な選択をしてはいけない。
 
 # 同期する条件:言語
 - 英語
