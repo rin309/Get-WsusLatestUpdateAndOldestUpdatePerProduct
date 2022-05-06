@@ -9,14 +9,6 @@ https://github.com/rin309/Get-WsusLatestUpdateAndOldestUpdatePerProduct/blob/mai
 > 
 
 # 実行結果
-https://github.com/rin309/Get-WsusLatestUpdateAndOldestUpdatePerProduct/blob/main/Get-WsusLatestUpdateAndOldestUpdatePerProduct.csv
-
-# 上記CSVが読みづらいので、カテゴリーごとに分けてみました
-
-https://github.com/rin309/Get-WsusLatestUpdateAndOldestUpdatePerProduct/blob/main/Windows.md
-https://github.com/rin309/Get-WsusLatestUpdateAndOldestUpdatePerProduct/blob/main/Office.md
-https://github.com/rin309/Get-WsusLatestUpdateAndOldestUpdatePerProduct/blob/main/SQL%20Server.md
-https://github.com/rin309/Get-WsusLatestUpdateAndOldestUpdatePerProduct/blob/main/Developer%20Tools%2C%20Runtimes%2C%20and%20Redistributables.md
 
 
 # 同期する条件:製品
@@ -32,10 +24,14 @@ https://github.com/rin309/Get-WsusLatestUpdateAndOldestUpdatePerProduct/blob/mai
 
 - すべての分類
 
+# 同期する条件:言語
+- 英語
+- 日本語
+
 # 最終同期日時
-- 2022/5/6 16:40
+- *
 
 # サーバーの統計
-- 未承認の更新プログラム: 795764
-- 承認された更新プログラム: 13
-- 拒否された更新プログラム: 5092
+- 未承認の更新プログラム: *
+- 承認された更新プログラム: *
+- 拒否された更新プログラム: *
