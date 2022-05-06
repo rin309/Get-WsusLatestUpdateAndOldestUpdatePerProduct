@@ -3,10 +3,9 @@ WSUSに接続して、データベース上の更新プログラムのうち、�
 
 https://github.com/rin309/Get-WsusLatestUpdateAndOldestUpdatePerProduct/blob/main/Get-WsusLatestUpdateAndOldestUpdatePerProduct.ps1
 
-> note
 > 
 > 動作保証はしません。
-> 多分大丈夫だと思いますが、本番環境では実行しないでください。
+> 負荷がかかるため、本番環境では実行しないでください。
 > 
 
 # 実行結果
