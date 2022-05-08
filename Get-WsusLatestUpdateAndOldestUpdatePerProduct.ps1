@@ -22,16 +22,16 @@ Function Get-WsusLatestUpdateAndOldestUpdatePerProduct($WsusServer, $CsvPath){
     Function Get-WsusProductItemOfWsusCategory($Category, $Item, $RetryCount){
         $RetryCount++
         If ($RetryCount -eq 1){
-            Write-Host "$(Get-Date): $($Item.Title)"
+            Write-Host "$(Get-Date -F F): $($Item.Title)"
         }
         ElseIf ($RetryCount -gt $MaximumRetry){
-            Write-Host "$(Get-Date): $($Item.Title) の更新プログラム取得はスキップされました"
+            Write-Host "$(Get-Date -F F): $($Item.Title) の更新プログラム取得はスキップされました"
             Write-Host ""
 
             Return $Item
         }
         Else{
-            Write-Host "$(Get-Date): $($Item.Title) の更新プログラム取得を再試行します ($RetryCount 回目)"
+            Write-Host "$(Get-Date -F F): $($Item.Title) の更新プログラム取得を再試行します ($RetryCount 回目)"
             Write-Host ""
         }
 
@@ -68,7 +68,7 @@ Function Get-WsusLatestUpdateAndOldestUpdatePerProduct($WsusServer, $CsvPath){
         }
         Catch [System.Exception]
         {
-            Write-Host "$(Get-Date): $($Item.Title) の更新プログラムを取得できませんでした"
+            Write-Host "$(Get-Date -F F): $($Item.Title) の更新プログラムを取得できませんでした"
             Write-Host $_.Exception
             Write-Host ""
 
@@ -95,7 +95,8 @@ Function Get-WsusLatestUpdateAndOldestUpdatePerProduct($WsusServer, $CsvPath){
     # - Office
     # - SQL Server
     # - Developer Tools, Runtimes, and Redistributables
-    (Get-WsusProduct -TitleIncludes "Microsoft" | Where-Object {$_.Product.Id -eq "56309036-4c77-4dd9-951a-99ee9c246a94"}).Product.GetSubcategories() | Where-Object {$_.Type -eq "ProductFamily" -and ($_.Id -eq "6964aab4-c5b5-43bd-a17d-ffb4346a8e1d" -or $_.Id -eq "477b856e-65c4-4473-b621-a8b230bb70d9" -or $_.Id -eq "48ce8c86-6850-4f68-8e9d-7dc8535ced60" -or $_.Id -eq "0a4c6c73-8887-4d7f-9cbe-d08fa8fa9d1e")} | Sort-Object @{expression={switch ($_.Id){"6964aab4-c5b5-43bd-a17d-ffb4346a8e1d"{1};"477b856e-65c4-4473-b621-a8b230bb70d9"{2};"48ce8c86-6850-4f68-8e9d-7dc8535ced60"{3};"0a4c6c73-8887-4d7f-9cbe-d08fa8fa9d1e"{4}default{5}}}} | ForEach-Object {
+    # - PowerShell
+    (Get-WsusProduct -TitleIncludes "Microsoft" | Where-Object {$_.Product.Id -eq "56309036-4c77-4dd9-951a-99ee9c246a94"}).Product.GetSubcategories() | Where-Object {$_.Type -eq "ProductFamily" -and ($_.Id -eq "6964aab4-c5b5-43bd-a17d-ffb4346a8e1d" -or $_.Id -eq "477b856e-65c4-4473-b621-a8b230bb70d9" -or $_.Id -eq "48ce8c86-6850-4f68-8e9d-7dc8535ced60" -or $_.Id -eq "0a4c6c73-8887-4d7f-9cbe-d08fa8fa9d1e" -or $_.Id -eq "fca452fc-9a11-ca4a-bf3e-0a0cef82a80e")} | Sort-Object @{expression={switch ($_.Id){"6964aab4-c5b5-43bd-a17d-ffb4346a8e1d"{1};"477b856e-65c4-4473-b621-a8b230bb70d9"{2};"48ce8c86-6850-4f68-8e9d-7dc8535ced60"{3};"0a4c6c73-8887-4d7f-9cbe-d08fa8fa9d1e"{4};"fca452fc-9a11-ca4a-bf3e-0a0cef82a80e"{5};default{6}}}} | ForEach-Object {
         $ParentCategoryTitle = $_.Title
         $_.GetSubcategories() | ForEach-Object {
             $Item = New-Object WsusProductItem
