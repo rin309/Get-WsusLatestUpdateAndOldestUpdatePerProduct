@@ -1,6 +1,7 @@
-# ŽÀsŒ‹‰Ê: ƒhƒ‰ƒCƒo[‚ ‚è
+# å®Ÿè¡Œçµæžœ: ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ã‚ã‚Š
+https://github.com/rin309/Get-WsusLatestUpdateAndOldestUpdatePerProduct/blob/main/Result/%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%E3%81%82%E3%82%8A.csv
 
-## »•i
+## è£½å“
 ![products](https://user-images.githubusercontent.com/760251/167159398-56ddfb56-b33c-497f-9fd0-549a2a67d283.png)
 
 - Windows
@@ -9,64 +10,62 @@
 - Developer Tools, Runtimes, and Redistributables
 - PowerShell
 
-> ’²¸‚Ì‚½‚ß‚É‘I‘ð‚µ‚½‚ªA–{”ÔŠÂ‹«‚Å‚Íâ‘Î‚É‚±‚ñ‚È—–\‚È‘I‘ð‚ð‚µ‚Ä‚Í‚¢‚¯‚È‚¢B
+> èª¿æŸ»ã®ãŸã‚ã«é¸æŠžã—ãŸãŒã€æœ¬ç•ªç’°å¢ƒã§ã¯çµ¶å¯¾ã«ã“ã‚“ãªä¹±æš´ãªé¸æŠžã‚’ã—ã¦ã¯ã„ã‘ãªã„ã€‚
 
-## •ª—Þ
+## åˆ†é¡ž
 ![classifications](https://user-images.githubusercontent.com/760251/167159433-57aff51d-6b1d-4dc5-8517-fd0119148b9e.png)
 
-- ‚·‚×‚Ä‚Ì•ª—Þ
+- ã™ã¹ã¦ã®åˆ†é¡ž
 
-> ’²¸‚Ì‚½‚ß‚É‘I‘ð‚µ‚½‚ªA–{”ÔŠÂ‹«‚Å‚Íâ‘Î‚É‚±‚ñ‚È—–\‚È‘I‘ð‚ð‚µ‚Ä‚Í‚¢‚¯‚È‚¢B
+> èª¿æŸ»ã®ãŸã‚ã«é¸æŠžã—ãŸãŒã€æœ¬ç•ªç’°å¢ƒã§ã¯çµ¶å¯¾ã«ã“ã‚“ãªä¹±æš´ãªé¸æŠžã‚’ã—ã¦ã¯ã„ã‘ãªã„ã€‚
 
-## Œ¾Œê
-- ‰pŒê
-- “ú–{Œê
+## è¨€èªž
+- è‹±èªž
+- æ—¥æœ¬èªž
 
-# ÅI“¯Šú“úŽž
-- 2022/5/8 11:46
+# æœ€çµ‚åŒæœŸæ—¥æ™‚
+- 2022/5/7 20:55
 
-# ƒT[ƒo[‚Ì“Œv
- (32003 Œ)
-- –¢³”F‚ÌXVƒvƒƒOƒ‰ƒ€: 31601
-- ³”F‚³‚ê‚½XVƒvƒƒOƒ‰ƒ€: 13
-- ‹‘”Û‚³‚ê‚½XVƒvƒƒOƒ‰ƒ€: 389
+# ã‚µãƒ¼ãƒãƒ¼ã®çµ±è¨ˆ
+- æœªæ‰¿èªã®æ›´æ–°ãƒ—ãƒ­ã‚°ãƒ©ãƒ : 798738
+- æ‰¿èªã•ã‚ŒãŸæ›´æ–°ãƒ—ãƒ­ã‚°ãƒ©ãƒ : 13
+- æ‹’å¦ã•ã‚ŒãŸæ›´æ–°ãƒ—ãƒ­ã‚°ãƒ©ãƒ : 1351
 
-# ŽÀsŒ‹‰Ê: ƒhƒ‰ƒCƒo[‚È‚µ
+# å®Ÿè¡Œçµæžœ: ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ãªã—
+https://github.com/rin309/Get-WsusLatestUpdateAndOldestUpdatePerProduct/blob/main/Result/%E3%83%89%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%E3%81%AA%E3%81%97.csv
 
-## »•i
+## è£½å“
 - Windows
 - Office
 - SQL Server
 - Developer Tools, Runtimes, and Redistributables
 - PowerShell
 
-> ’²¸‚Ì‚½‚ß‚É‘I‘ð‚µ‚½‚ªA–{”ÔŠÂ‹«‚Å‚Íâ‘Î‚É‚±‚ñ‚È—–\‚È‘I‘ð‚ð‚µ‚Ä‚Í‚¢‚¯‚È‚¢B
+> èª¿æŸ»ã®ãŸã‚ã«é¸æŠžã—ãŸãŒã€æœ¬ç•ªç’°å¢ƒã§ã¯çµ¶å¯¾ã«ã“ã‚“ãªä¹±æš´ãªé¸æŠžã‚’ã—ã¦ã¯ã„ã‘ãªã„ã€‚
 
-## •ª—Þ
-
+## åˆ†é¡ž
 - Feature Packs
 - Service Packs
 - Upgrades
-- ƒZƒLƒ…ƒŠƒeƒB–â‘è‚ÌC³ƒvƒƒOƒ‰ƒ€
-- ƒc[ƒ‹
-- ƒhƒ‰ƒCƒo
-- ƒhƒ‰ƒCƒo[ƒZƒbƒg
-- XV
-- C³ƒvƒƒOƒ‰ƒ€W
-- d—v‚ÈXV
-- ’è‹`XVƒvƒƒOƒ‰ƒ€
+- ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£å•é¡Œã®ä¿®æ­£ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
+- ãƒ„ãƒ¼ãƒ«
+- ãƒ‰ãƒ©ã‚¤ãƒ
+- ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ã‚»ãƒƒãƒˆ
+- æ›´æ–°
+- ä¿®æ­£ãƒ—ãƒ­ã‚°ãƒ©ãƒ é›†
+- é‡è¦ãªæ›´æ–°
+- å®šç¾©æ›´æ–°ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 
-> ’²¸‚Ì‚½‚ß‚É‘I‘ð‚µ‚½‚ªA–{”ÔŠÂ‹«‚Å‚Íâ‘Î‚É‚±‚ñ‚È—–\‚È‘I‘ð‚ð‚µ‚Ä‚Í‚¢‚¯‚È‚¢B
+> èª¿æŸ»ã®ãŸã‚ã«é¸æŠžã—ãŸãŒã€æœ¬ç•ªç’°å¢ƒã§ã¯çµ¶å¯¾ã«ã“ã‚“ãªä¹±æš´ãªé¸æŠžã‚’ã—ã¦ã¯ã„ã‘ãªã„ã€‚
 
-## Œ¾Œê
-- ‰pŒê
-- “ú–{Œê
+## è¨€èªž
+- è‹±èªž
+- æ—¥æœ¬èªž
 
-# ÅI“¯Šú“úŽž
+# æœ€çµ‚åŒæœŸæ—¥æ™‚
 - 2022/5/8 11:46
 
-# ƒT[ƒo[‚Ì“Œv
- (32003 Œ)
-- –¢³”F‚ÌXVƒvƒƒOƒ‰ƒ€: 31601
-- ³”F‚³‚ê‚½XVƒvƒƒOƒ‰ƒ€: 13
-- ‹‘”Û‚³‚ê‚½XVƒvƒƒOƒ‰ƒ€: 389
+# ã‚µãƒ¼ãƒãƒ¼ã®çµ±è¨ˆ
+- æœªæ‰¿èªã®æ›´æ–°ãƒ—ãƒ­ã‚°ãƒ©ãƒ : 31601
+- æ‰¿èªã•ã‚ŒãŸæ›´æ–°ãƒ—ãƒ­ã‚°ãƒ©ãƒ : 13
+- æ‹’å¦ã•ã‚ŒãŸæ›´æ–°ãƒ—ãƒ­ã‚°ãƒ©ãƒ : 389
